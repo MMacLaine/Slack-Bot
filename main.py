@@ -115,8 +115,6 @@ def help_message(channel_id, user):
                     - members: prints every channel along with their member count
                     - guidelines: get a list of channels according to guidelines
                     - history: get a list of channels with their latest chat message, archive correct channels
-                Source: https://github.com/webbhalsa/slack-bot
-                Created by Matthew MacLaine, Gabor Racz"""
     slack_client.chat_postEphemeral(channel=channel_id, user=user, text=help_text)
 
 
