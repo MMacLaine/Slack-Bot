@@ -114,7 +114,7 @@ def help_message(channel_id, user):
                     - empty: get a list of empty channels
                     - members: prints every channel along with their member count
                     - guidelines: get a list of channels according to guidelines
-                    - history: get a list of channels with their latest chat message, archive correct channels
+                    - history: get a list of channels with their latest chat message, archive correct channels"""
     slack_client.chat_postEphemeral(channel=channel_id, user=user, text=help_text)
 
 
